@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.cdnfonts.com/css/berylium-2" rel="stylesheet">
+    <link rel="icon" href="logo1.png">
+    <audio autoplay>
+        <source src="hahaha.mp3" type="audio/mp3">
+    </audio>
+    
+                
+    <title>Este Sou Eu</title>
+    
+    <style>
+        button {
+            background-color: #007BFF;
+            color: white;
+            font-size: 16px;
+            padding: 05px 05px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+        body {
+            
+            background-image: url('eu.jpg'); 
+            background-size: contain; 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            align-items: center; 
+            padding-left: 20px; 
+
+        }
+        
+        .texto-container {
+            position: absolute; 
+            top: -30px;  
+            left: -25px; 
+            background-color: rgba(255, 255, 255, 0.0); 
+            padding: 50px;
+            border-radius: 20px;
+            max-width: 20%;
+        }
+
+        h1, h2, h3, h4, p {
+            color: black;
+            margin: 10px 0;
+            text-align: left; 
+            font-family: 'Berylium', sans-serif;
+        }
+        
+        h5 {
+            position: absolute;
+            left: 1600px;
+            top: 20px;
+            bottom: 30px;
+            font-family: 'Berylium', sans-serif;
+            color: black;
+            font-size: 18px;
+            background-color: rgba(255, 255, 255, 0.0);
+            margin-top: 360px;
+            
+            
+            
+        }
+        h6 {
+            position: absolute;
+            left: 1500px;
+            top: 400px;
+            font-family: 'Berylium', sans-serif;
+            color: black;
+            font-size: 18px;
+            background-color: rgba(255, 255, 255, 0.0);
+            margin-top: 400px;
+            
+        }
+
+        .imagem-esquerda {
+            position: absolute;
+            left: 20px; 
+            bottom: 20px; 
+            width: 200px; 
+            border-radius: 10px;
+        }
+
+        .imagem-direita {
+            position: absolute;
+            top: 20px;
+            right: 70px; 
+            bottom: 50px; 
+            width:300px;
+            border-radius: 40px;
+        }
+        .imagem-LP {
+            position: absolute;
+            top: 580px;
+            right: 70px; 
+            bottom: 50px; 
+            width:100px;
+            border-radius: 40px;
+        }
+        .imagem-curiosidade {
+            position: absolute;
+            top: 680px;
+            right: 70px; 
+            bottom: 50px; 
+            width:100px;
+            border-radius: 40px;
+        }
+        .imagem-paiaco {
+            position: absolute;
+            left: 20px; 
+            top: 400px; 
+            width: 200px; 
+            border-radius: 10px;  
+        }
+        .imagem-maestria {
+            position: absolute;
+            left: 20px; 
+            top: 550px; 
+            width: 200px; 
+            border-radius: 10px;  
+        }
+        footer {
+            position: absolute;
+            bottom: 10px; 
+            left: 10px;
+            font-family: 'Berylium', sans-serif;
+            color: black;
+            font-size: 18px;
+            background-color: rgba(255, 255, 255, 0.0); 
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+   
+    
+    <audio id="meuAudio">
+        <source src="hahaha.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+        function playAudio() {
+            var audio = document.getElementById("meuAudio");
+            audio.play();
+        }
+    </script>
+    <div class="texto-container">
+        <button onclick="playAudio()">surpresa</button>
+        <h1>Opa, eu Joao "1" Vulgo pombo_correio</h1>
+        <h2>um humilde usuário de programa e criador de conteúdo de *originalidade duvidosa*</h2>
+        <h3>18 anos, no terceiro período de ADS</h3>
+        <h4>Minha ideia inicial era ser youtuber de Minecraft, depois médico, depois coveiro, depois bicheiro,
+            depois ferreiro, depois caminhoneiro. Acabei cursando ADS, mas acho que vou virar palhaço de rodeio.</h4>
+      
+    </div>
+    <h5>poisé um programador que tem o sonho de ser dublador e perde tempo editando fotos e videos... da pra acreditar nisso?</h5>
+    <h6> uma curiosidade, na novela caras e bocas o macaco chico comeu um panelaço de strogonoff sem fazer cara feia e no fim da gravação desceu a porrada no diretor Jorge Fernando</h6>
+
+    <img src="hack.jpg" alt="Imagem adicional" class="imagem-esquerda">
+    <img src="tikteko.jpg" alt="Segunda imagem" class="imagem-direita">
+    <img src="macaco chico.jpg" alt="imagem curiosidade" class="imagem-curiosidade">
+    <img src="paiaco.jpg" alt="imagem paiaco" class="imagem-paiaco">
+    <img src="maestria.jpg" alt="imagem maestria" class="imagem-maestria">
+    <img src="LP.png" alt="imagem LP" class="imagem-LP">
+    <footer>
+        willamis viado
+    </footer>
+
+</body>
+</html>
